@@ -1,0 +1,24 @@
+ PPT 可直接貼上的指令與範例輸出
+
+Commands (copy to slide):
+- mvn -DskipTests package
+- java -cp target\\classes com.example.security.App
+- java -cp target\\classes com.example.security.App strong
+- java -cp target\\classes com.example.security.App "minLength=10" "requireSymbols=false"
+
+Example outputs (copy to slide):
+- [POLICY] minLength=12, requireUpper=true, requireLower=true, requireDigits=true, requireSymbols=true
+- [POLICY] minLength=6, requireUpper=false, requireLower=true, requireDigits=false, requireSymbols=false
+- [POLICY] minLength=10, requireUpper=true, requireLower=true, requireDigits=true, requireSymbols=false
+
+Suggested screenshots (titles to show on slides):
+- Console: Default policy output with [POLICY] line
+- Console: weak preset output showing disabled uppercase and digits
+- Console: custom policy output showing minLength=10 and symbols disabled
+- JaCoCo report screenshot showing coverage % (aim >=90%)
+- PMD report screenshot
+
+Notes for presenter (short):
+- 每次執行 App 都會在 console 印出一行 [POLICY] 摘要，方便在 PPT 中直接貼上或截圖證明五項設定。
+- 如果想在投影片中顯示更完整的中文描述，可以把 policy_demo.txt 的該段直接貼入。
+

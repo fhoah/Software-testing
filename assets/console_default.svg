@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240">
+  <rect width="100%" height="100%" fill="#1e1e1e"/>
+  <style>
+    .mono { font-family: "Consolas", "Courier New", monospace; font-size:16px; fill:#d4d4d4; }
+    .title { font-size:18px; fill:#00d0ff; }
+  </style>
+  <text x="20" y="32" class="title mono">Console — Default policy output</text>
+  <text x="20" y="64" class="mono">[POLICY] minLength=12, requireUpper=true, requireLower=true, requireDigits=true, requireSymbols=true</text>
+  <text x="20" y="92" class="mono">(系統已就緒，等待輸入密碼進行分析...)</text>
+  <rect x="18" y="48" width="964" height="140" fill="none" stroke="#333" stroke-width="1"/>
+</svg>
+

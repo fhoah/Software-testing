@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240">
+  <rect width="100%" height="100%" fill="#1e1e1e"/>
+  <style>
+    .mono { font-family: "Consolas", "Courier New", monospace; font-size:16px; fill:#d4d4d4; }
+    .title { font-size:18px; fill:#00d0ff; }
+  </style>
+  <text x="20" y="32" class="title mono">Console — Custom policy output</text>
+  <text x="20" y="64" class="mono">[POLICY] minLength=10, requireUpper=true, requireLower=true, requireDigits=true, requireSymbols=false</text>
+  <text x="20" y="92" class="mono">(當前安全策略配置已載入)</text>
+  <text x="20" y="120" class="mono">1. 最小長度限制: 10</text>
+  <text x="20" y="144" class="mono">5. 特殊符號要求: 關閉</text>
+  <rect x="18" y="48" width="964" height="168" fill="none" stroke="#333" stroke-width="1"/>
+</svg>
+
